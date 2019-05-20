@@ -8,6 +8,8 @@ x2 = [4.1,6.1,4.9,7.2]
 y = [2.0,3.4,4.2,5.1]
 
 X = np.transpose([x1, x2])
+print("shape = ",X.shape)
+
 Y = np.transpose([y])
 
 model = Sequential()
@@ -21,3 +23,10 @@ model.fit(X, Y, epochs=2000)
 # evaluate the model
 scores = model.evaluate(X, Y)
 print(scores)
+
+x_1 = [4.8]
+x_2 = [7.2]
+X_test = np.transpose([x_1, x_2])
+#print("shape = ", x_test.shape)
+y_predict = model.predict(X_test)
+print("prediction = ", y_predict)
