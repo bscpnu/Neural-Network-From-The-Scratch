@@ -1,5 +1,8 @@
 import tensorflow as tf
 
+## author: Imam Mustafa Kamal
+## email: imamkamal52@gmail.com
+
 # Model Parameters
 W1 = tf.Variable([0.2],name='weight1')
 W2 = tf.Variable([0.1],name='weight2')

@@ -2,6 +2,9 @@ from keras.models import Sequential
 from keras.layers import Dense
 import numpy as np
 
+## author: Imam Mustafa Kamal
+## email: imamkamal52@gmail.com
+
 # prepare sequence
 x1 = [1.1,2.0,3.5,4.8]
 x2 = [4.1,6.1,4.9,7.2]
